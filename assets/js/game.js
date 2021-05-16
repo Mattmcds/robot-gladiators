@@ -93,3 +93,15 @@ for (var i = 0; i < enemyNames.length; i++) {
     break;
   }
 }
+
+var startGame = function() {
+
+}
+
+var shop = function() {
+
+}
+
+var endGame = function() {
+  
+}
