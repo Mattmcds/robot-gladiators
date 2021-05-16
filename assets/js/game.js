@@ -156,6 +156,18 @@ var shop = function() {
   }
 };
 
+// function to set name
+var getPlayerName = function () {
+  var name = "";
+
+  // ********************************************
+  //   ADD LOOP HERE WITH PROMPT AND CONDITION
+  //*********************************************
+
+  console.log("Your robot's name is " + name);
+  return name;
+};
+
 var playerInfo = {
   name: window.prompt("What is your robot's name?"),
   health: 100,
