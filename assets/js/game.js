@@ -9,7 +9,11 @@ var fightOrSkip = function() {
   // ask player if they'd like to fight or skip using fightOrSkip function
   var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
 
-  // Enter the condition recursive function call here!
+  // Conditional recursive function call
+  if (promptFight === || promptFight === null) {
+    window.alert("You need to provide a valid answer! Please try again.");
+    return fightOrSkip();
+  }
 
   // if player picks "skip" confirm and then stop the loop
   if (promptFight === "skip" || promptFight === "SKIP") {
@@ -24,7 +28,6 @@ var fightOrSkip = function() {
       shop();
     }
   }
-
 }
 
 // fight function
